@@ -1,0 +1,101 @@
+.box-product
+{
+	width: 100%;
+	height: 400px;
+	margin: 10px;
+	cursor: pointer;
+	background-color: white;
+}
+.box-product:hover
+{
+     box-shadow:  2px 2px 10px rgba(29,34,47,0.1); 
+
+}
+.image-box
+{
+	width: 90%;
+	height: 70%;
+	margin: auto;
+	margin-top: 10px;
+}
+
+.image-box img
+{
+	width: 100%;
+	height: 100%;
+}
+.title-box
+{
+	width: 90%;
+}
+.title-box p
+{
+	padding: 10px;
+	font-size: 16px;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 600;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
+	text-shadow: rgba(0,0,0,.01) 0 0 1px;
+	color: #384158;
+
+}
+
+.price-box p
+{
+	padding: 0px;
+	margin: 0px;
+	padding-left: 10px;
+	font-size: 23px;
+	font-family: 'Roboto Slab', serif;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
+	text-shadow: rgba(0,0,0,.01) 0 0 1px;
+	color: red;
+	margin-top: -10px;
+}
+
+.select-item
+{
+	width: 100%;
+	height: auto;
+	font-family: 'Roboto Slab', serif;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
+	text-shadow: rgba(0,0,0,.01) 0 0 1px;
+	font-size: 15px;
+	color: #384158;
+
+	
+}
+
+.courses_button
+{
+	width: 150px;
+	height: 40px;
+	border-radius: 3px;
+	background: #14bdee;
+	text-align: center;
+	margin: 0 auto;
+	line-height: 40px;
+	margin-top: 28px;
+	box-shadow: 0px 5px 40px rgba(29,34,47,0.15);
+}
+.courses_button:hover
+{
+	box-shadow: 0px 5px 40px rgba(29,34,47,0.45);
+}
+.courses_button a
+{
+	display: block;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 40px;
+	color: #FFFFFF;
+}
+.hoverSelect
+{
+	box-shadow: 0px 5px 40px rgba(29,34,47,0.15);
+}
+
